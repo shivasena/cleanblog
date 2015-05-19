@@ -24,7 +24,7 @@ description: "Мама, спортсменка, визажист и просто
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts {{ site.baseurl }} {{ paginator.previous_page_path }}</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
