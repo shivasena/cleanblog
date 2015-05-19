@@ -5,7 +5,7 @@ email: mika.smith@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 
 baseurl: ""
-url: ""
+url: "http://shivasena.github.io/cleanblog/"
 
 twitter_username: 
 github_username: shivasena
