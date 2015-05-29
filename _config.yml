@@ -4,7 +4,11 @@ header-img: img/home-bg.jpg
 email: mika.smith@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 
+<<<<<<< HEAD
 baseurl: "http://shivasena.github.io/cleanblog/"
+=======
+baseurl: ""
+>>>>>>> origin/gh-pages
 url: ""
 
 twitter_username: 
