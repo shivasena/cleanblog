@@ -27,21 +27,6 @@ layout: default
 
 				{{ content }}
 
-                <hr>
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Читать предыдущий</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Читать следующий &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
                 <div class="disqus">
                     <div id="disqus_thread"></div>
                     <script type="text/javascript">
@@ -58,6 +43,20 @@ layout: default
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
                 </div>
 
+                <hr>
+
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Читать предыдущий</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Читать следующий &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
             </div>
         </div>
     </div>
