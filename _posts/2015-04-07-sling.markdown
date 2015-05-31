@@ -5,6 +5,7 @@ subtitle:   "как я решилась на слинг и не пожалела
 date:       2015-04-07 12:00:00
 author:     "Оля"
 header-img: "img/post-bg-sling01.jpg"
+comments:   True
 ---
 
 Коляска или слинг?
